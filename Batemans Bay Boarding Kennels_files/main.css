@@ -1,0 +1,101 @@
+*{font-size:100%;font-family:Arial, Helvetica, sans-serif;margin:0;padding:0;outline:0;border:0}ul,ol{list-style:none}a{text-decoration:none}table,tbody,tr,td,th{border-collapse:collapse;border-spacing:0}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+
+body{background:#cbebff url(../img/body.png) no-repeat 50% 0}
+.cf:before,.cf:after{content:"";display:table}
+.cf:after{clear:both}
+* + html .cf{zoom:1}
+#wrap{width:874px;margin:0 auto;position:relative}
+#contentWrap{background:#fff;position:relative;margin:0 0 220px}
+
+#footer{height:240px;position:absolute;bottom:-226px;left:0;background:url(../img/footer.png) no-repeat;z-index:1;width:100%}
+#footer *{font-family:"Arial Rounded MT Bold",Arial, Helvetica, sans-serif}
+#footer > *{position:absolute}
+#footerMenu{top:156px;left:363px}
+#footerMenu li{float:left;margin-right:12px}
+#footerMenu a{font-size:14px;color:#1c7bb1;font-weight:bold;margin-right:10px}
+#callUs{color:#fff;font-size:25px;left:25px;top:57px;line-height:30px;width:490px;text-align:center;}
+#legal{font-size:14px;color:#1c7bb1;font-weight:bold;left:525px;top:181px}
+
+#header{position:relative;z-index:3;height:180px;background:url(../img/header.png) no-repeat 0 100%}
+#header > *{position:absolute}
+#logo{width:370px;height:169px;left:33px;top:11px;background:url(../img/logo.png);z-index:9}
+#logo a{font-size:0;text-indent:-9999px;position:absolute;width:100%;height:100%}
+#logo.InHome{background:none;height:175px;width:390px;top:50px;left:12px}
+
+#contactInfo{left:585px;top:30px;white-space:nowrap}
+#contactInfo *{font-family:"Arial Rounded MT Bold",Arial, Helvetica, sans-serif;color:#076ea8}
+#contactInfo .Name{font-size:20px;margin-bottom:6px}
+#contactInfo .Contact{font-size:28px;padding:4px 0 0 40px;margin-left:60px;background:url(../img/icon-phone.png) no-repeat 0 50%}
+#contactInfo.InHome{left:648px}
+#contactInfo .NameHome{font-size:20px;margin:-15px 0px 15px 50px;text-align:right;}
+#contactInfo .ContactHome{font-size:20px;margin:0px 0px 0px 50px;text-align:right;background:url(../img/icon-phone.png) no-repeat 0 50%;}
+
+#header .Banner.Top{width:794px;height:297px;background:url(../img/banner-home.png) no-repeat;top:9px;left:9px}
+#header .Banner.Bottom{width:621px;height:134px;background:url(../img/banner-home.png) no-repeat -163px -279px;top:288px;left:172px}
+
+#container{padding:0 20px;position:relative;z-index:2;margin-bottom:-20px}
+#sidebar{float:left;width:275px;padding:12px 0 0}
+#primary{float:right;width:538px;padding:12px 0 20px;}
+
+#menu{padding:15px 0 0 0;position:relative;background:url(../img/menu.png) no-repeat}
+#menuInner{height:543px;position:relative;background:url(../img/menu.png) no-repeat 100% 100% #798926}
+#menu.InHome #menuInner{padding:110px 0 0;height:433px}
+#menu ul{width:222px}
+#menu ul li{padding:0 0 0px 32px}
+#menu ul li + li{border-top:1px solid #fff}
+#menu ul li a{font-family:"Arial Rounded MT Bold",Arial, Helvetica, sans-serif;color:#fff;font-size:30px;line-height:48px}
+#menu ul li a:hover{color:#ddf4ff}
+#menu ul li a.Cur{color:#cbeeff}
+#menu .DogNCat{width:202px;height:284px;background:url(../img/dog-n-cat.png);left:18px;bottom:-37px;positioN:absolute}
+
+.PageTitle{border-bottom:1px solid #cbedff;position:relative;padding:14px 10px;text-align:right;height:54px;right:20px;bottom:0;line-height:54px;font-size:48px;color:#1476ae;font-family:"Arial Rounded MT Bold",Arial, Helvetica, sans-serif;width:518px}
+.PageBanner{font-size:0;padding:4px 0 16px;border-bottom:1px solid #cbedff}
+
+#welcome{padding:195px 0 0 0}
+#welcome .Title{font-size:44px;color:#1476ae;font-family:"Arial Rounded MT Bold",Arial, Helvetica, sans-serif;margin-bottom:4px}
+
+#testimoinals li{border-radius:10px;background:#cbeeff;padding:18px 22px 22px;position:relative}
+#testimoinals li + li{margin-top:6px}
+#testimoinals li:nth-child(even){background:#dee4bc}
+#testimoinals *{font-family:"Arial Rounded MT Bold",Arial, Helvetica, sans-serif;font-size:14px}
+#testimoinals .ContentPost{color:#297099;line-height:19px}
+#testimoinals .User{padding:20px 0 0;color:#798926}
+
+.Article *{font-family:"Arial Rounded MT Bold",Arial, Helvetica, sans-serif;font-size:18px;}
+.Article > h3,
+.Article > p{padding:3px 0 0;line-height:20px;color:#798926;font-weight:normal}
+.Article > h3{color:#1476ae}
+strong {color:#000000;font-weight:normal}
+
+#contact .Map{font-size:0}
+#contact .Info{border-radius:10px;margin:0 0 15px;padding:20px;background:url(../img/contact-info.png) no-repeat 270px 6px #cbeeff;height:170px;position:relative}
+#contact .Info .Left{width:210px;float:left;border: 0px dashed #c80000;}
+#contact .Info *{font-family:"Arial Rounded MT Bold",Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;color:#076ea8}
+#contact .Info .Left .Name{font-size:20px;line-height:24px;margin:0 0 20px}
+#contact .Info .Right{float:right;width:249px;padding:0px 0 0 0}
+#contact .Info .Right .Name{font-size:20px;margin-bottom:0px}
+#contact .Info .Right .Contact{font-size:29px;padding:0 0 0 40px;background:url(../img/icon-phone.png) no-repeat 0 50%;font-weight:normal}
+#contactInfo.InHome{left:648px}
+#contact .Web{position:absolute;left:20px;bottom:25px;height:17px;line-height:16px}
+#contact .Mail{position:absolute;left:20px;bottom:25px;height:17px;line-height:16px;padding:0 0 0 40px;background:url(../img/icon-mail.png) no-repeat}
+
+.kennelservices {font-family:"Arial Rounded MT Bold",Arial, Helvetica, sans-serif;font-size:18px;font-weight:normal}
+.kennelservices ul{list-style-type:disc;}
+.kennelservices li{padding:3px 0 0;line-height:20px;color:#798926;display:list-item;list-style:disc inside}
+.ServicesList ul{list-style-type:disc;}
+.ServicesList li{padding:10px 0 0 20px;font-size:18px;color:#3d4d70;display:list-item;list-style:disc inside}
+
+.links img {display: block;margin: 0 auto;}
+
+.pics {margin: 30px 8px 20px 12px;
+      width: 240px;
+      float: left;
+      text-align: center;
+      background-color:#ffffff;}
+.border {border: 2px solid #ddf4ff;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -moz-box-shadow: 2px 2px 3px #000000;
+        -webkit-box-shadow: 2px 2px 3px #000000;
+        box-shadow: 2px 2px 3px #000000;}
+
